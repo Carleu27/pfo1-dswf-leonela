@@ -1,1 +1,773 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfolio personal de Leonela Lamas, estudiante de Desarrollo de Software."
+    >
+
+    <meta
+        name="author"
+        content="Leonela Lamas"
+    >
+
+    <title>Leonela Lamas | Portfolio</title>
+
+    <!-- Google Fonts: Inter para el contenido y Space Mono para detalles técnicos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER: contiene la identidad principal y la navegación del portfolio -->
+    <header class="header" id="inicio">
+
+        <div class="container nav-container">
+
+            <a class="logo" href="#inicio" aria-label="Ir al inicio">
+                Leonela<span>.</span>
+            </a>
+
+            <!-- NAV: permite desplazarse entre las distintas secciones de la landing -->
+            <nav class="navigation" aria-label="Navegación principal">
+
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+
+                <a
+                    class="github-link"
+                    href="https://github.com/TU-USUARIO"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- MAIN: contiene todo el contenido principal de la landing -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" aria-labelledby="titulo-principal">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        DESARROLLO DE SOFTWARE · PORTFOLIO 2026
+                    </p>
+
+                    <h1 id="titulo-principal">
+                        Hola, soy
+                        <span>Leonela Lamas.</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Estudiante de Tecnicatura Superior en Desarrollo de
+                        Software y apasionada por aprender, crear y resolver
+                        problemas mediante la tecnología.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            class="button button-primary"
+                            href="#proyectos"
+                        >
+                            Ver proyectos
+                        </a>
+
+                        <a
+                            class="button button-secondary"
+                            href="https://github.com/TU-USUARIO"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Visitar mi GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card" aria-label="Presentación visual">
+
+                    <div class="code-window">
+
+                        <div class="window-header">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="code-content">
+
+                            <p>
+                                <span class="code-purple">const</span>
+                                <span class="code-blue">developer</span>
+                                =
+                                <span class="code-symbol">{</span>
+                            </p>
+
+                            <p class="indent">
+                                name:
+                                <span class="code-green">
+                                    "Leonela Lamas"
+                                </span>,
+                            </p>
+
+                            <p class="indent">
+                                career:
+                                <span class="code-green">
+                                    "Software Development"
+                                </span>,
+                            </p>
+
+                            <p class="indent">
+                                learning:
+                                <span class="code-green">
+                                    true
+                                </span>,
+                            </p>
+
+                            <p class="indent">
+                                building:
+                                <span class="code-green">
+                                    true
+                                </span>
+                            </p>
+
+                            <p>
+                                <span class="code-symbol">};</span>
+                            </p>
+
+                            <p class="cursor">_</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MÍ -->
+        <section
+            class="section"
+            id="sobre-mi"
+            aria-labelledby="titulo-sobre-mi"
+        >
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>01</span>
+
+                    <h2 id="titulo-sobre-mi">
+                        Sobre mí
+                    </h2>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <p class="highlight">
+                            Soy estudiante de la
+                            <strong>
+                                Tecnicatura Superior en Desarrollo de Software
+                            </strong>
+                            en IFTS 29.
+                        </p>
+
+                        <p>
+                            Actualmente estoy cursando el segundo año de la
+                            carrera y desarrollando conocimientos en
+                            programación, bases de datos, desarrollo web,
+                            desarrollo de aplicaciones, ingeniería de software
+                            y testing.
+                        </p>
+
+                        <p>
+                            Me interesa continuar creciendo profesionalmente
+                            dentro del área IT y participar en proyectos que me
+                            permitan transformar conocimientos en soluciones
+                            concretas.
+                        </p>
+
+                    </div>
+
+
+                    <aside class="about-info">
+
+                        <div class="info-card">
+                            <span>FORMACIÓN</span>
+                            <strong>IFTS 29</strong>
+                        </div>
+
+                        <div class="info-card">
+                            <span>ÁREA</span>
+                            <strong>Software</strong>
+                        </div>
+
+                        <div class="info-card">
+                            <span>ESTADO</span>
+                            <strong>En formación</strong>
+                        </div>
+
+                    </aside>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section
+            class="section section-dark"
+            id="habilidades"
+            aria-labelledby="titulo-habilidades"
+        >
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>02</span>
+
+                    <h2 id="titulo-habilidades">
+                        Habilidades
+                    </h2>
+
+                </div>
+
+
+                <p class="section-description">
+                    Tecnologías y herramientas que forman parte de mi formación
+                    y de los proyectos que desarrollo.
+                </p>
+
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            &lt;/&gt;
+                        </div>
+
+                        <h3>Lenguajes</h3>
+
+                        <div class="badges">
+
+                            <span class="badge">Python</span>
+                            <span class="badge">C#</span>
+                            <span class="badge">C++</span>
+                            <span class="badge">Java</span>
+                            <span class="badge">Kotlin</span>
+                            <span class="badge">JavaScript</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            WEB
+                        </div>
+
+                        <h3>Desarrollo Web</h3>
+
+                        <div class="badges">
+
+                            <span class="badge">HTML5</span>
+                            <span class="badge">CSS3</span>
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">Frontend</span>
+                            <span class="badge">Backend</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            DB
+                        </div>
+
+                        <h3>Bases de datos</h3>
+
+                        <div class="badges">
+
+                            <span class="badge">SQL</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Modelado</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            DEV
+                        </div>
+
+                        <h3>Herramientas</h3>
+
+                        <div class="badges">
+
+                            <span class="badge">Git</span>
+                            <span class="badge">GitHub</span>
+                            <span class="badge">VS Code</span>
+                            <span class="badge">Visual Studio</span>
+                            <span class="badge">Android Studio</span>
+                            <span class="badge">Gradle</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            SYS
+                        </div>
+
+                        <h3>Sistemas</h3>
+
+                        <div class="badges">
+
+                            <span class="badge">Linux</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            CLOUD
+                        </div>
+
+                        <h3>Cloud & Deploy</h3>
+
+                        <div class="badges">
+
+                            <span class="badge">AWS</span>
+                            <span class="badge">Vercel</span>
+                            <span class="badge">Netlify</span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="interest-box">
+
+                    <h3>Áreas de interés</h3>
+
+                    <div class="interest-list">
+
+                        <span>Testing</span>
+                        <span>Business Intelligence</span>
+                        <span>Dashboards</span>
+                        <span>Análisis de datos</span>
+                        <span>Cloud</span>
+                        <span>IA</span>
+                        <span>Automatización</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROYECTOS -->
+        <section
+            class="section"
+            id="proyectos"
+            aria-labelledby="titulo-proyectos"
+        >
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>03</span>
+
+                    <h2 id="titulo-proyectos">
+                        Proyectos
+                    </h2>
+
+                </div>
+
+
+                <p class="section-description">
+                    Algunos proyectos y trabajos realizados durante mi
+                    formación en Desarrollo de Software.
+                </p>
+
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <div>
+
+                            <span class="project-type">
+                                Aplicación
+                            </span>
+
+                            <h3>
+                                Sistema de gestión de gimnasio
+                            </h3>
+
+                            <p>
+                                Aplicación orientada a la gestión de socios,
+                                membresías y pagos.
+                            </p>
+
+                            <div class="project-tags">
+
+                                <span>Android Studio</span>
+                                <span>Kotlin</span>
+                                <span>Java</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <div>
+
+                            <span class="project-type">
+                                Sistema
+                            </span>
+
+                            <h3>
+                                Sistema de gestión de clínica
+                            </h3>
+
+                            <p>
+                                Sistema orientado a la gestión de turnos,
+                                recepción, suministros y procesos internos.
+                            </p>
+
+                            <div class="project-tags">
+
+                                <span>C#</span>
+                                <span>SQL</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <div>
+
+                            <span class="project-type">
+                                Datos
+                            </span>
+
+                            <h3>
+                                Análisis y visualización de datos
+                            </h3>
+
+                            <p>
+                                Trabajos de análisis estadístico,
+                                caracterización de datos y visualización
+                                mediante tablas y gráficos.
+                            </p>
+
+                            <div class="project-tags">
+
+                                <span>Infostat</span>
+                                <span>Excel</span>
+                                <span>Google Sheets</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN PERSONAL -->
+        <section
+            class="section personal-section"
+            aria-labelledby="titulo-personal"
+        >
+
+            <div class="container personal-grid">
+
+                <div>
+
+                    <div class="section-title">
+
+                        <span>04</span>
+
+                        <h2 id="titulo-personal">
+                            Más allá del código
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="personal-text">
+
+                    <p>
+                        Además de mi formación en tecnología, me interesa
+                        continuar aprendiendo y descubrir nuevas áreas dentro
+                        del mundo IT.
+                    </p>
+
+                    <p>
+                        Considero que aprender desarrollo de software no
+                        consiste solamente en conocer lenguajes, sino también
+                        en desarrollar la capacidad de analizar problemas,
+                        buscar soluciones y adaptarse a nuevas herramientas.
+                    </p>
+
+                    <div class="quote">
+                        <span>“</span>
+                        Aprender, crear y mejorar constantemente.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section
+            class="section contact"
+            id="contacto"
+            aria-labelledby="titulo-contacto"
+        >
+
+            <div class="container contact-container">
+
+                <div class="section-title">
+
+                    <span>05</span>
+
+                    <h2 id="titulo-contacto">
+                        Contacto
+                    </h2>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+
+                        <p class="highlight">
+                            ¿Querés ponerte en contacto conmigo?
+                        </p>
+
+                        <p>
+                            Podés escribirme mediante el formulario o visitar
+                            mis perfiles profesionales.
+                        </p>
+
+
+                        <div class="social-links">
+
+                            <a
+                                href="https://github.com/TU-USUARIO"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub
+                            </a>
+
+                            <a
+                                href="https://www.linkedin.com/in/TU-USUARIO/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                LinkedIn
+                            </a>
+
+                            <a href="mailto:TU-EMAIL@EJEMPLO.COM">
+                                Email
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Formulario con labels asociados a cada campo -->
+                    <form class="contact-form" action="#" method="post">
+
+                        <div class="form-group">
+
+                            <label for="nombre">
+                                Nombre
+                            </label>
+
+                            <input
+                                type="text"
+                                id="nombre"
+                                name="nombre"
+                                placeholder="Tu nombre"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="tu@email.com"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="mensaje">
+                                Mensaje
+                            </label>
+
+                            <textarea
+                                id="mensaje"
+                                name="mensaje"
+                                rows="5"
+                                placeholder="Escribí tu mensaje..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            class="button button-primary"
+                            type="submit"
+                        >
+                            Enviar mensaje
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER: cierre de la página y enlaces principales -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Leonela Lamas
+            </p>
+
+            <p>
+                Portfolio · Desarrollo de Software
+            </p>
+
+            <a href="#inicio">
+                Volver arriba ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
