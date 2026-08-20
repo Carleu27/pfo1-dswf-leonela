@@ -1,9 +1,6 @@
 /* =========================================================
    PFO1 - PORTFOLIO PERSONAL
    Leonela Lamas - 2026
-
-   El diseño utiliza variables CSS para mantener una
-   identidad visual consistente y facilitar modificaciones.
    ========================================================= */
 
 
@@ -111,14 +108,18 @@ textarea {
 .header {
 
     position: sticky;
+
     top: 0;
+
     z-index: 100;
 
-    background: rgba(8, 9, 13, 0.88);
+    background:
+        rgba(8, 9, 13, 0.88);
 
     backdrop-filter: blur(15px);
 
-    border-bottom: 1px solid var(--border);
+    border-bottom:
+        1px solid var(--border);
 }
 
 
@@ -181,9 +182,11 @@ textarea {
 
 .navigation .github-link {
 
-    padding: 0.55rem 0.9rem;
+    padding:
+        0.55rem 0.9rem;
 
-    border: 1px solid var(--border);
+    border:
+        1px solid var(--border);
 
     border-radius: 7px;
 
@@ -197,7 +200,8 @@ textarea {
 
 .hero {
 
-    min-height: calc(100vh - 76px);
+    min-height:
+        calc(100vh - 76px);
 
     display: flex;
 
@@ -237,11 +241,8 @@ textarea {
 
     max-width: 700px;
 
-    font-size: clamp(
-        3rem,
-        7vw,
-        6rem
-    );
+    font-size:
+        clamp(3rem, 7vw, 6rem);
 
     line-height: 0.98;
 
@@ -304,9 +305,11 @@ textarea {
 
     min-height: 46px;
 
-    padding: 0.7rem 1.2rem;
+    padding:
+        0.7rem 1.2rem;
 
-    border: 1px solid transparent;
+    border:
+        1px solid transparent;
 
     border-radius: 8px;
 
@@ -357,12 +360,8 @@ textarea {
 
 .button-secondary:hover {
 
-    border-color: rgba(
-        167,
-        139,
-        250,
-        0.5
-    );
+    border-color:
+        rgba(167, 139, 250, 0.5);
 
     background:
         rgba(167, 139, 250, 0.06);
@@ -383,10 +382,8 @@ textarea {
 
 .code-window {
 
-    width: min(
-        100%,
-        430px
-    );
+    width:
+        min(100%, 430px);
 
     border:
         1px solid var(--border);
@@ -537,7 +534,7 @@ textarea {
 }
 
 
-.section-title span {
+.section-title > span {
 
     color: var(--accent);
 
@@ -549,11 +546,8 @@ textarea {
 
 .section-title h2 {
 
-    font-size: clamp(
-        1.8rem,
-        4vw,
-        2.5rem
-    );
+    font-size:
+        clamp(1.8rem, 4vw, 2.5rem);
 
     letter-spacing: -1.5px;
 }
@@ -575,7 +569,16 @@ textarea {
    SOBRE MÍ
    ========================= */
 
-.about-grid {
+.about {
+
+    padding-block: 7rem;
+
+    border-top:
+        1px solid var(--border);
+}
+
+
+.about-content {
 
     display: grid;
 
@@ -584,7 +587,10 @@ textarea {
         minmax(250px, 0.7fr);
 
     gap: 5rem;
+
+    align-items: start;
 }
+
 
 .about-text {
 
@@ -592,42 +598,25 @@ textarea {
 
     color: var(--text-muted);
 
-    font-size: 0.95rem;
-
     line-height: 1.9;
 }
 
 
 .about-text p {
 
-    margin-bottom: 1.4rem;
-}
-
-
-.about-text p:last-child {
-
-    margin-bottom: 0;
-}
-
-
-
-.about-text .highlight {
-
-    color: var(--text);
-
-    font-size: 1.25rem;
-
-    line-height: 1.7;
+    margin-bottom: 1.2rem;
 }
 
 
 .about-text strong {
 
     color: var(--accent-light);
+
+    font-weight: 700;
 }
 
 
-.about-info {
+.about-highlights {
 
     display: grid;
 
@@ -635,9 +624,16 @@ textarea {
 }
 
 
-.info-card {
+.highlight {
 
-    padding: 1.3rem;
+    display: flex;
+
+    align-items: center;
+
+    gap: 1rem;
+
+    padding:
+        1rem 1.2rem;
 
     border:
         1px solid var(--border);
@@ -646,13 +642,15 @@ textarea {
 
     background: var(--surface);
 
+    color: var(--text);
+
     transition:
         transform var(--transition),
         border-color var(--transition);
 }
 
 
-.info-card:hover {
+.highlight:hover {
 
     transform: translateX(5px);
 
@@ -661,22 +659,13 @@ textarea {
 }
 
 
-.info-card span {
+.highlight-number {
 
-    display: block;
-
-    margin-bottom: 0.3rem;
-
-    color: var(--text-muted);
+    color: var(--accent);
 
     font-family: var(--font-code);
 
-    font-size: 0.6rem;
-}
-
-
-.info-card strong {
-    font-size: 1rem;
+    font-size: 0.65rem;
 }
 
 
@@ -831,6 +820,8 @@ textarea {
 
     font-size: 0.9rem;
 }
+
+
 /* =========================
    PROYECTOS
    ========================= */
@@ -879,8 +870,6 @@ textarea {
 }
 
 
-/* Línea decorativa superior */
-
 .project-card::before {
 
     content: "";
@@ -917,9 +906,7 @@ textarea {
 }
 
 
-/* =========================
-   PARTE SUPERIOR
-   ========================= */
+/* Parte superior de cada proyecto */
 
 .project-top {
 
@@ -971,9 +958,7 @@ textarea {
 }
 
 
-/* =========================
-   CONTENIDO
-   ========================= */
+/* Contenido */
 
 .project-content {
 
@@ -1007,9 +992,7 @@ textarea {
 }
 
 
-/* =========================
-   PIE DE TARJETA
-   ========================= */
+/* Pie */
 
 .project-footer {
 
@@ -1080,7 +1063,7 @@ textarea {
 
     background:
         rgba(167, 139, 250, 0.06);
-   }
+}
 
 
 /* =========================
@@ -1153,6 +1136,7 @@ textarea {
    ========================= */
 
 .contact-container {
+
     max-width: 950px;
 }
 
@@ -1183,290 +1167,4 @@ textarea {
     color: var(--text);
 
     font-size: 1.2rem;
-}
-
-
-.social-links {
-
-    display: flex;
-
-    flex-wrap: wrap;
-
-    gap: 0.6rem;
-
-    margin-top: 1.5rem;
-}
-
-
-.social-links a {
-
-    padding:
-        0.5rem 0.8rem;
-
-    border:
-        1px solid var(--border);
-
-    border-radius: 6px;
-
-    color: var(--text);
-
-    font-size: 0.75rem;
-
-    transition:
-        background var(--transition),
-        border-color var(--transition);
-}
-
-
-.social-links a:hover {
-
-    background:
-        rgba(167, 139, 250, 0.08);
-
-    border-color:
-        rgba(167, 139, 250, 0.4);
-}
-
-
-.contact-form {
-
-    display: grid;
-
-    gap: 1rem;
-}
-
-
-.form-group {
-
-    display: grid;
-
-    gap: 0.4rem;
-}
-
-
-.form-group label {
-
-    color: var(--text);
-
-    font-size: 0.75rem;
-
-    font-weight: 600;
-}
-
-
-.form-group input,
-.form-group textarea {
-
-    width: 100%;
-
-    padding: 0.8rem;
-
-    border:
-        1px solid var(--border);
-
-    border-radius: 7px;
-
-    outline: none;
-
-    background:
-        rgba(255, 255, 255, 0.03);
-
-    color: var(--text);
-
-    resize: vertical;
-
-    transition:
-        border-color var(--transition),
-        background var(--transition);
-}
-
-
-.form-group input:focus,
-.form-group textarea:focus {
-
-    border-color:
-        rgba(167, 139, 250, 0.65);
-
-    background:
-        rgba(167, 139, 250, 0.04);
-}
-
-
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-
-    color: #626674;
-}
-
-
-.contact-form .button {
-
-    margin-top: 0.4rem;
-
-    justify-self: start;
-}
-
-
-/* =========================
-   FOOTER
-   ========================= */
-
-.footer {
-
-    border-top:
-        1px solid var(--border);
-}
-
-
-.footer-content {
-
-    min-height: 90px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    gap: 1rem;
-
-    color: var(--text-muted);
-
-    font-size: 0.7rem;
-}
-
-
-.footer-content a {
-
-    color: var(--accent-light);
-}
-
-
-/* =========================
-   RESPONSIVE
-   ========================= */
-
-@media (max-width: 900px) {
-
-    .hero-grid,
-    .about-grid,
-    .personal-grid,
-    .contact-grid {
-
-        grid-template-columns: 1fr;
-
-        gap: 3rem;
-    }
-
-
-    .hero {
-
-        padding-block: 6rem;
-    }
-
-
-    .hero-card {
-
-        justify-content: flex-start;
-    }
-
-
-    .skills-grid {
-
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-}
-
-
-@media (max-width: 650px) {
-
-    .container {
-
-        width:
-            min(
-                var(--container),
-                calc(100% - 28px)
-            );
-    }
-
-
-    .navigation {
-
-        gap: 0.6rem;
-    }
-
-
-    .navigation > a:not(.github-link) {
-
-        display: none;
-    }
-
-
-    .hero h1 {
-
-        font-size: 3.2rem;
-
-        letter-spacing: -2.5px;
-    }
-
-
-    .hero-subtitle {
-
-        font-size: 0.9rem;
-    }
-
-
-    .hero-buttons {
-
-        flex-direction: column;
-
-        align-items: stretch;
-    }
-
-
-    .button {
-
-        width: 100%;
-    }
-
-
-    .skills-grid {
-
-        grid-template-columns: 1fr;
-    }
-
-
-    .section {
-
-        padding-block: 5rem;
-    }
-
-
-    .project-card {
-
-        grid-template-columns: 1fr;
-
-        gap: 0.8rem;
-
-        padding: 1.5rem;
-    }
-
-
-    .personal-grid {
-
-        gap: 2rem;
-    }
-
-
-    .footer-content {
-
-        min-height: auto;
-
-        padding-block: 1.5rem;
-
-        flex-direction: column;
-
-        text-align: center;
-    }
-  }
+   }
