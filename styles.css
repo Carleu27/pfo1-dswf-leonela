@@ -586,12 +586,13 @@ textarea {
     gap: 5rem;
 }
 
-
 .about-text {
 
     max-width: 700px;
 
     color: var(--text-muted);
+
+    font-size: 0.95rem;
 
     line-height: 1.9;
 }
@@ -599,8 +600,15 @@ textarea {
 
 .about-text p {
 
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.4rem;
 }
+
+
+.about-text p:last-child {
+
+    margin-bottom: 0;
+}
+
 
 
 .about-text .highlight {
