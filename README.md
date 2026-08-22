@@ -1,40 +1,38 @@
-PFO1 — Landing de Portafolio Personal
+# Práctica Formativa Obligatoria 1 - Landing Page de Portafolio Personal
 
-👩‍💻 Leonela Lamas
+## Descripción del Proyecto
 
-Landing de portafolio personal desarrollada para la PFO1 de Desarrollo de Sistemas Web — Front End, 2026.
-
-El proyecto fue realizado utilizando HTML5 y CSS3, con una estructura responsive y orientada a presentar mi perfil, formación, habilidades, proyectos y medios de contacto.
+Este repositorio contiene mi Trabajo Práctico (TP) correspondiente a la Práctica Formativa Obligatoria 1. Es una Landing Page estática desarrollada con HTML5 y CSS3 que funciona como mi Portafolio Personal, con una estructura responsive y orientada a presentar mi perfil, formación, habilidades, proyectos y medios de contacto.
 
 ---
 
-🌐 Demo
+## 🌐 Demo
 
 Portfolio publicado en Vercel:
 
-«PEGAR AQUÍ LA URL DE VERCEL»
+https://pfo1-dswf-leonela.vercel.app/
 
 ---
 
-💻 Repositorio
+## 💻 Repositorio
 
 Repositorio público:
 
-«PEGAR AQUÍ LA URL DEL REPOSITORIO»
+https://github.com/Carleu27/pfo1-dswf-leonela
 
 ---
 
-🔗 Perfil de GitHub
+## 🔗 Perfil de GitHub
 
 Mi perfil de GitHub se encuentra enlazado de forma visible dentro de la landing.
 
 GitHub:
 
-«PEGAR AQUÍ LA URL DE TU PERFIL DE GITHUB»
+https://github.com/Carleu27
 
 ---
 
-🎯 Objetivo de la PFO1
+## 🎯 Objetivo de la PFO1
 
 El objetivo de esta PFO1 es desarrollar una landing de portafolio personal que permita presentar mi perfil, habilidades y una forma de contacto.
 
@@ -52,9 +50,9 @@ La página incluye:
 
 ---
 
-🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
-HTML5
+### HTML5
 
 Se utilizó HTML5 para construir la estructura y el contenido de la landing.
 
@@ -71,7 +69,7 @@ Se aplicaron elementos semánticos como:
 
 También se utilizaron etiquetas de formulario correctamente asociadas mediante "label" e "id".
 
-CSS3
+### CSS3
 
 El diseño fue desarrollado con CSS propio.
 
@@ -86,7 +84,7 @@ Se utilizaron:
 - Unidades relativas.
 - Diseño responsive.
 
-Google Fonts
+### Google Fonts
 
 Se utilizaron las fuentes:
 
@@ -97,11 +95,11 @@ La elección busca combinar una tipografía clara para el contenido general con 
 
 ---
 
-🎨 Decisiones de diseño
+## 🎨 Decisiones de diseño
 
 Elegí una estética oscura y minimalista relacionada con el ámbito del desarrollo de software.
 
-Paleta
+### Paleta
 
 La página utiliza principalmente:
 
@@ -111,7 +109,7 @@ La página utiliza principalmente:
 
 El violeta se utiliza para destacar elementos importantes como títulos, números de sección, enlaces y detalles visuales.
 
-Estructura
+### Estructura
 
 La landing está organizada en las siguientes secciones:
 
@@ -125,7 +123,7 @@ La landing está organizada en las siguientes secciones:
 
 La navegación superior permite acceder rápidamente a las diferentes partes de la página.
 
-Responsive
+### Responsive
 
 El diseño se adapta a diferentes tamaños de pantalla mediante media queries.
 
@@ -138,7 +136,7 @@ En dispositivos pequeños:
 
 ---
 
-✨ Interactividad y animaciones
+## ✨ Interactividad y animaciones
 
 Se incorporaron diferentes efectos mediante CSS.
 
@@ -154,7 +152,7 @@ Estos efectos fueron utilizados para aportar dinamismo sin dificultar la lectura
 
 ---
 
-♿ Accesibilidad
+## ♿ Accesibilidad
 
 Se incorporaron algunas decisiones orientadas a mejorar la accesibilidad:
 
@@ -168,9 +166,9 @@ Se incorporaron algunas decisiones orientadas a mejorar la accesibilidad:
 
 ---
 
-📁 Estructura del proyecto
+## 📁 Estructura del proyecto
 
-portfolio-leonela/
+pfo1-dswf-leonela/
 │
 ├── index.html
 ├── styles.css
@@ -178,7 +176,7 @@ portfolio-leonela/
 
 ---
 
-🚀 Publicación
+## 🚀 Publicación
 
 El proyecto fue publicado utilizando Vercel.
 
@@ -186,15 +184,15 @@ La publicación permite acceder a la landing mediante una URL pública.
 
 URL:
 
-«PEGAR AQUÍ LA URL FINAL DE VERCEL»
+https://pfo1-dswf-leonela.vercel.app/
 
 ---
 
-🤖 Declaración de uso de IA
+## 🤖 Declaración de uso de IA
 
 Para el desarrollo de esta PFO1 utilicé una herramienta de inteligencia artificial generativa como apoyo durante el proceso.
 
-Herramienta utilizada
+### Herramienta utilizada
 
 ChatGPT — OpenAI
 
@@ -209,17 +207,11 @@ La utilicé como herramienta de apoyo para:
 - Proponer ideas para la presentación visual.
 - Ayudar a identificar posibles mejoras en responsive y accesibilidad.
 
-Plan utilizado
-
-COMPLETAR CON TU PLAN REAL:
-
-«Ejemplo: Plan gratuito / Plan Plus.»
+Plan utilizado: Plan gratuito
 
 Experiencia previa
 
-COMPLETAR CON TU EXPERIENCIA REAL.
-
-«Ejemplo: Ya tenía experiencia previa utilizando ChatGPT como herramienta de consulta y aprendizaje para temas relacionados con programación.»
+Ya tenía experiencia previa utilizando ChatGPT como herramienta de consulta y aprendizaje para temas relacionados con programación.
 
 Revisión y adaptación propia
 
@@ -243,7 +235,7 @@ La decisión final sobre el contenido, diseño y estructura del proyecto fue rea
 
 ---
 
-📚 Aprendizajes
+### 📚 Aprendizajes
 
 Durante el desarrollo de esta PFO1 trabajé especialmente sobre:
 
@@ -262,9 +254,9 @@ Durante el desarrollo de esta PFO1 trabajé especialmente sobre:
 
 ---
 
-👩‍💻 Autora
+### 👩‍💻 Autora
 
-Leonela Lamas
+Carmen Leonela Lamas
 
 Tecnicatura Superior en Desarrollo de Software
 IFTS 29 — CABA
@@ -272,7 +264,7 @@ IFTS 29 — CABA
 
 ---
 
-📌 PFO1
+### 📌 PFO1
 
 Materia: Desarrollo de Sistemas Web — Front End
 Actividad: PFO1 — Landing de portafolio personal
