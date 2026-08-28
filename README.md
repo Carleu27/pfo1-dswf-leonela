@@ -6,32 +6,6 @@ Este repositorio contiene mi Trabajo Práctico (TP) correspondiente a la Prácti
 
 ---
 
-## 🌐 Demo
-
-Portfolio publicado en Vercel:
-
-https://pfo1-dswf-leonela.vercel.app/
-
----
-
-## 💻 Repositorio
-
-Repositorio público:
-
-https://github.com/Carleu27/pfo1-dswf-leonela
-
----
-
-## 🔗 Perfil de GitHub
-
-Mi perfil de GitHub se encuentra enlazado de forma visible dentro de la landing.
-
-GitHub:
-
-https://github.com/Carleu27
-
----
-
 ## 🎯 Objetivo de la PFO1
 
 El objetivo de esta PFO1 es desarrollar una landing de portafolio personal que permita presentar mi perfil, habilidades y una forma de contacto.
@@ -176,15 +150,28 @@ pfo1-dswf-leonela/
 
 ---
 
-## 🚀 Publicación
+## 🔗 Enlaces
 
-El proyecto fue publicado utilizando Vercel.
+### 🚀 Publicación
 
-La publicación permite acceder a la landing mediante una URL pública.
-
-URL:
+Portfolio publicado en Vercel:
 
 https://pfo1-dswf-leonela.vercel.app/
+
+
+### 💻 Repositorio
+
+Repositorio público:
+
+https://github.com/Carleu27/pfo1-dswf-leonela
+
+
+### 🔗 Perfil de GitHub
+
+GitHub:
+
+https://github.com/Carleu27
+
 
 ---
 
