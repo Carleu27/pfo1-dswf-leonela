@@ -1610,3 +1610,13 @@ textarea {
    ========================================================= */
 
 @media (max-width: 380px) 
+
+
+
+/* =========================
+   CORRECCIÓN DE TEXTO · MODO NOCTURNO
+   ========================= */
+
+body.lighting-night .info-card .skill-list li {
+  color: var(--marfil);
+}
